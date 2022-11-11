@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+/* Section 1 [title page] */
+.title-page {
+    background-color: blanchedalmond;
+}
+/* Container */
+.container-1 {
+    width: 100%;
+}
+/* Navigation Bar */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav ul {
+    vertical-align: top;
+}
+
+.topnav li {
+    list-style: none;
+    /* float: left;  */
+    display: inline-block;
+    text-align: center;
+    padding: 12px auto;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a {
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.topnav li a:hover {
+    background-color: gray;
+}
+
+.active {
+    background-color: gray;
+}
+
+/* Main Content */
+.container {
+ /* This horizontally centers the page */
+    border: 2px;
+    border-color: black;
+    background-color: aquamarine;
+    width: 80%;
+    padding: 30px;
+    margin-top: 8px;
+}
+
+/* Heading */
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+/* Carousel
+body {
+  align-items: center;
+  background: #E3E3E3;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1750px);
+  }
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: 3500px;
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+} */

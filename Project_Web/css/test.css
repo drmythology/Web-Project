@@ -1,0 +1,304 @@
+body {
+  font-family: 'Outfit';
+}
+
+.container {
+    margin: auto;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    padding: 30px;
+    margin-top: 8px;
+}
+
+h4 {
+  font-size: 80px;
+  color: white;
+}
+
+.fa-sharp {
+  color: white;
+}
+
+.fa-solid {
+  color: white;
+}
+
+.fa-car-garage {
+  color: black;
+}
+
+/* Search Bar CSS */
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 30%;
+}
+
+/* Navigation bar */
+.brand {
+  font-family: 'Stick No Bills';
+  font-weight: 900;
+  font-size: 20px;
+}
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav ul {
+    vertical-align: top;
+}
+
+.topnav li {
+    list-style: none;
+    /* float: left;  */
+    display: inline-block;
+    text-align: center;
+    padding: 12px auto;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a {
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.topnav li a:hover {
+    background-color: gray;
+}
+
+.active {
+    background-color: gray;
+}
+
+/* Main Heading */
+
+#headingPicture {
+    width: 100%;
+}
+
+/* Container holding the image and the text */
+.headingContainer {
+  position: relative;
+}
+
+/* Sub Heading */
+
+.subheadingtextContainer {
+  margin: 200px auto 250px auto;
+}
+
+.subheadingtextContainer h3 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.subheadingtextContainer a {
+  text-decoration: none;
+  font-family: 'Outfit';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mainButton {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  width: 7%;
+  height: 7%;
+  border-radius: 25px;
+  left: 50%;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.mainButton:hover {
+  background-color: #555555;
+  color: white;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: 0;
+  right: 0;
+  bottom: 40%;
+}
+
+/* Footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Cars.html */
+
+.carSpecs {
+  text-align: justify;
+}
+
+.carSpecs img {
+  margin-right: 50px;
+  /* height: 200px; */
+  /* transform: scale(90%); */
+  width: 80%;
+  border-style: none;
+  border-radius: 15px;
+}
+
+/* Car Directory */
+
+.carDirectory {
+  text-align: justify;
+}
+
+.carDirectory td {
+  height: 25%;
+  width: 25%;
+}
+
+.carDirectory span {
+  color: blue;
+}
+
+.carDirectory img {
+  height: 300px;
+  width: 400px;
+  border-style: none;
+  border-radius: 15px;
+  margin-right: 50px;
+}
+
+.carDirectory ul {
+  list-style: none;
+}
+
+/* ============Services.html=============== */
+
+* {
+	box-sizing: border-box;
+}
+
+/* body {
+	background-color: #f6f5f7;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 50px;
+} */
+
+.text-center {
+	text-align: center;
+}
+
+.pricing-box-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.pricing-box {
+	background-color: #ffffff;
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	border-radius: 4px;
+	flex: 1;
+	padding: 0 30px 30px;
+	margin: 2%;
+	min-width: 250px;
+	max-width: 350px;
+}
+
+.pricing-box h5 {
+	text-transform: uppercase;
+}
+
+.price {
+	margin: 24px 0;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.price sub, .price sup {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.features-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.features-list li {
+	font-weight: 100;
+	padding: 12px 0;
+	font-weight: 100;
+}
+
+.features-list li:not(:last-of-type) {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+	border-radius: 25px;
+	border: none;
+	background-color: gray;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 15px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	transform: translateY(-3px);
+}
+
+.pricing-box-featured {
+	background-color: #ffffff;
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	border-radius: 4px;
+	flex: 1;
+	padding: 0 70px 70px;
+	margin: 2%;
+	min-width: 250px;
+	max-width: 350px;
+}
+
+/* Carousel */
+
+/* body {
+  align-items: center;
+  background: #E3E3E3;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+} */
+
+/* Footer */
+
+.footer {
+  background-color: black;
+}
+
+.footer p {
+  color: white;
+  font-size: 10px;
+}
